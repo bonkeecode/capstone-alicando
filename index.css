@@ -1,45 +1,67 @@
 body{
 	font-family: 'Roboto';
-    background-color: #9BA4B5;
+    background-color: #144272;
 }
 
 
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 15px;
-    font-size: 38;
-} 
-.right-nav {
-    float: right;
-    margin-right: 6rem;
-    font-weight: bold;
-}
 .navbar-brand{
     
     font-family: 'Bruno Ace SC';
+    padding-left: 15px;
+}
+.title{
+   font-family: 'Bruno Ace SC'; 
 }
 .navbar{
-    background-color: #212A3E;
+    background-color: #0A2647;
+    margin-left: -20px;
+    margin-right: -20px;
+
 }
 
-#contact{
-background-color: #9BA4B5;
-}
 .card{
-    background-color: #394867;
+    background-color: #205295;
+   
+}
+.title, .subtitle{
+    bottom: 0;
 }
 #others{
     font-family: 'Zilla Slab';
 }
 #contact_form{
-    background-color: #394867;
+    background-color: #2C74B3;
 }
-.footer {
+.footer, #navbarNav2 {
 
   text-align: center;
-  background-color: #212A3E;
-  padding: 10px;
+background-color: #0A2647;
 
+  margin-left: -20px;
+margin-right: -20px;
 
+}
+
+#projects{
+    background-color: #205295;
+}
+ #aboutme{
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+ }
+ #myjob, #myname{
+        background-color: rgba(0, 0, 0, 0.7);
+ }
+#carouselid{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#bg-image {
+    background-image: url('./images/pexels-luis-gomes-546819.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+    margin-left: -10%;
+    margin-right: -10%;
 }
