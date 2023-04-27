@@ -1,0 +1,45 @@
+body{
+	font-family: 'Roboto';
+    background-color: #9BA4B5;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 38;
+} 
+.right-nav {
+    float: right;
+    margin-right: 6rem;
+    font-weight: bold;
+}
+.navbar-brand{
+    
+    font-family: 'Bruno Ace SC';
+}
+.navbar{
+    background-color: #212A3E;
+}
+
+#contact{
+background-color: #9BA4B5;
+}
+.card{
+    background-color: #394867;
+}
+#others{
+    font-family: 'Zilla Slab';
+}
+#contact_form{
+    background-color: #394867;
+}
+.footer {
+
+  text-align: center;
+  background-color: #212A3E;
+  padding: 10px;
+
+
+}
