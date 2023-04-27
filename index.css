@@ -1,9 +1,7 @@
 body{
-	font-family: 'Roboto';
+    font-family: 'Roboto';
     background-color: #144272;
 }
-
-
 .navbar-brand{
     
     font-family: 'Bruno Ace SC';
@@ -16,9 +14,7 @@ body{
     background-color: #0A2647;
     margin-left: -20px;
     margin-right: -20px;
-
 }
-
 .card{
     background-color: #205295;
    
@@ -39,9 +35,7 @@ background-color: #0A2647;
 
   margin-left: -20px;
 margin-right: -20px;
-
 }
-
 #projects{
     background-color: #205295;
 }
@@ -59,9 +53,8 @@ margin-right: -20px;
 }
 #bg-image {
     background-image: url('./images/bg.jpg');
-    background-size: cover;
     background-position: center;
-    height: 92vh;
-    margin-left: -10%;
-    margin-right: -10%;
+    width: 100%;
+    height: auto;   
+    padding-bottom: 3%;
 }
