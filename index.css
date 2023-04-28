@@ -16,14 +16,14 @@ body{
     margin-right: -20px;
 }
 .card{
-    background-color: #205295;
-   
+    background-color: #205295;  
 }
+
 .title, .subtitle{
     bottom: 0;
 }
-#others{
-    font-family: 'Zilla Slab';
+#others, #gallery{
+    font-family: 'Bruno Ace SC';
 }
 #contact_form{
     background-color: #2C74B3;
@@ -47,6 +47,7 @@ margin-right: -20px;
  }
  #myjob, #myname{
         background-color: rgba(0, 0, 0, 0.7);
+
  }
 #carouselid{
     background-color: rgba(0, 0, 0, 0.7);
@@ -58,5 +59,11 @@ margin-right: -20px;
     height: auto;   
     padding-bottom: 3%;
     background-position: bottom center;
+
+}
+.card-body:hover{
+    background: #0A2647;
+    transform: translateY(0);
+
 }
 
